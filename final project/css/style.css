@@ -1,0 +1,42 @@
+.wrapper{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("../photos/09-night.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    
+}
+.navigation a{
+    color:aliceblue;
+    text-decoration: none;
+    
+}
+.Hotel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    height: 20vh;
+ 
+    
+}
+.information-container{
+    min-width: 100vw;
+    min-height: 60vh;
+    margin:20px
+}
+.information-relax img{
+    width: 40%;
+    height: auto;
+}
+.information-wrapper{
+    display: flex;
+}
