@@ -1,3 +1,9 @@
+body {
+    background-color: #14110F;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 .wrapper{
     min-height: 100vh;
     min-width: 100vw;
@@ -8,14 +14,26 @@
 }
 .navigation {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 2rem;
+    justify-content:space-between;
+    font-size: 200%;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 .navigation a{
-    color:aliceblue;
-    text-decoration: none;
+    color:#bcaa99;
+    text-decoration:underline;
+    font-family:serif;
+    font-style: oblique;
     
+    
+    
+}
+.navigation img{
+    width:7%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 .Hotel {
     display: flex;
@@ -25,18 +43,142 @@
     text-align: center;
     margin-top: auto;
     height: 20vh;
+    color: #bcaa99;
+    width: 100vw;
+    height: 100vh;
+    font-family:serif;
+    font-size: 200%;
+
  
     
 }
+.about-us{
+
+    color:#ad9c86;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    font-style: oblique;
+
+
+}
+button{
+    border-radius: 20px;
+    background-color: #bcaa99;
+    color: white;
+    font-size: 20px;
+    padding: 10px
+}
+.about{
+    width: 100vw;
+    height: 50vh;
+    background-color: #14110F;
+
+}
+
 .information-container{
     min-width: 100vw;
     min-height: 60vh;
-    margin:20px
+    margin:20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
 }
 .information-relax img{
-    width: 40%;
+    width: 80%;
     height: auto;
 }
 .information-wrapper{
     display: flex;
+    
 }
+.information-relax{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ad9c86;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 115%;
+    font-style: oblique;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.Contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../photos/06-night.jpg");
+    background-size:cover;
+
+}
+.contact-container{
+    background-color: #ad9c86;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content:center;
+    align-self:center;
+    text-align: center;
+    color:#14110F;
+    margin-left: auto;
+    margin-right: auto;
+    font-style:oblique;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.room-container{
+    min-width: 100vw;
+    min-height: 60vh;
+    margin:50px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    
+    }
+    .room img{
+        width: 85%;
+        height: auto;
+    }
+
+    .information-room {
+        color: #ad9c86;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 200%;
+        font-style: oblique;
+    }
+    .room-container{
+        min-width: 100vw;
+        min-height: 60vh;
+        margin:20px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin:2%;
+        
+        
+        
+        }
+
+        .information-room {
+ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ad9c86;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 120%;
+            font-style: oblique;
+            }
